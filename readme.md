@@ -1,4 +1,4 @@
-** House of the code
+## House of the code
 
 This app is a programming book store.
 
