@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* Style the header */
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+nav {
+	float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+nav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.pageBody {
+	float: left;
+	padding: 15px 25px 25px 25px;
+}
+
+.wrapper {
+	overflow: hidden;
+}
+
+.title {
+	width: 1300px;
+	float:left;
+}
+
+.shopping-cart {
+	float: right;
+	overflow: hidden;
+}
+
+
+
